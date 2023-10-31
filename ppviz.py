@@ -3,7 +3,7 @@ from htag import Tag
 import htbulma as b
 import html,sys
 
-__version__= "0.0.0" # auto generated
+__version__ = "0.0.0" # auto generated
 
 def profile( pyfile:str ) -> list:
     import cProfile
