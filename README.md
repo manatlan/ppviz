@@ -5,7 +5,7 @@ It's a GUI to explore/profile a python file.
 
 ```
 $ python -m pip install ppviz
-$ ppviz your_file.py
+$ ppviz sudoku.py
 ```
 
 ![screenshot](screenshot.png?raw=true "Screenshot")
