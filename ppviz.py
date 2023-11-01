@@ -84,7 +84,11 @@ class ppviz(Tag.body):
 
 def main( ):
     from htag.runners import ChromeApp
-    ChromeApp(ppviz).run()
+    try:
+        ChromeApp(ppviz).run()
+    except:
+        from htag.runners import BrowserStarletteWS
+        BrowserStarletteWS(ppviz).run()
 
 if __name__=="__main__":
     #~ sys.argv=["","t.py"]
