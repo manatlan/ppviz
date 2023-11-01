@@ -20,7 +20,7 @@ ppviz = "ppviz:main"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-htag = "^0.53.0"
+htag = "^0.60"
 htbulma = "^0.9.7"
 starlette = "*"
 uvicorn = {extras = ["standard"], version = "*"}
