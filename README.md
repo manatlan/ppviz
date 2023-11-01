@@ -1,7 +1,8 @@
 # ppviz (python profiler viz'ualizer)
 
 It's a GUI to explore/profile a python file.
-(it's a little bit like snakeviz)
+(it's a little bit like [snakeviz](https://jiffyclub.github.io/snakeviz/))
+Should work on windows/mac/linux and chromeos/linux
 
 ```
 $ python -m pip install ppviz
@@ -12,5 +13,3 @@ $ ppviz sudoku.py
 ![screenshot](screenshot.png?raw=true "Screenshot")
 
 it uses [htag](https://github.com/manatlan/htag)(+htbulma) as gui system ;-)
-
-currently, it only works on windows/linux/mac, but you'll need to have "google chrome" installed (it doesn't work on chromebook yet)
